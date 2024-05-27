@@ -13,7 +13,12 @@ dependencies:
     sdk: flutter
 
   whatsapp_camera: ^1.0.0
-  photofilters: ^3.0.1
+  # photofilters: ^3.0.1
+  share_plus:
+    git:
+      url: https://github.com/imguptaharsh/plus_plugins.git
+      path: packages/share_plus/share_plus
+      ref: main
   perfect_freehand: ^1.0.4
   image_crop_plus_updated: ^0.7.1
   hsv_color_pickers: ^0.2.2 
