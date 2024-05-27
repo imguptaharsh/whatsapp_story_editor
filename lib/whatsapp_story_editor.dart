@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:whatsapp_story_editor/src/controller/editing_binding.dart';
 import 'package:whatsapp_story_editor/src/views/main_view.dart';
-import 'package:whatsapp_camera/whatsapp_camera.dart';
+// import 'package:whatsapp_camera/whatsapp_camera.dart';
 
 ///To encapsulate the result of editing a WhatsApp story.
 ///The image property contains the edited image,
