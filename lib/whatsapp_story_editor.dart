@@ -26,31 +26,31 @@ class WhatsappStoryEditor extends StatefulWidget {
 }
 
 class _WhatsappStoryEditorState extends State<WhatsappStoryEditor> {
-  @override
-  void initState() {
-    //Switch to WhatsappCamera
-    WidgetsBinding.instance.addPostFrameCallback((_) async {
-      await Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => const WhatsappCamera(),
-        ),
-      ).then((res) {
-        //pass results to MainController
-        if (res != null) {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => MainControllerView(
-                file: res[0],
-              ),
-            ),
-          );
-        }
-      });
-    });
-    super.initState();
-  }
+  // @override
+  // void initState() {
+  //   //Switch to WhatsappCamera
+  //   WidgetsBinding.instance.addPostFrameCallback((_) async {
+  //     await Navigator.push(
+  //       context,
+  //       MaterialPageRoute(
+  //         builder: (context) => const WhatsappCamera(),
+  //       ),
+  //     ).then((res) {
+  //       //pass results to MainController
+  //       if (res != null) {
+  //         Navigator.push(
+  //           context,
+  //           MaterialPageRoute(
+  //             builder: (context) => MainControllerView(
+  //               file: res[0],
+  //             ),
+  //           ),
+  //         );
+  //       }
+  //     });
+  //   });
+  //   super.initState();
+  // }
 
   @override
   void dispose() {
