@@ -1,5 +1,7 @@
 library whatsapp_story_editor;
 
+export 'src/views/main_view.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:whatsapp_story_editor/src/controller/editing_binding.dart';
