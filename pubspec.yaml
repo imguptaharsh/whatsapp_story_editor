@@ -27,7 +27,7 @@ dependencies:
   flutter_svg: ^2.0.4
 
   dotted_border: ^2.0.0+2
-  image_cropper: ^4.0.1
+  # image_cropper: ^4.0.1
   image_picker: ^1.0.4
   # matrix_gesture_detector: 
   #   git:
