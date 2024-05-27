@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  whatsapp_camera: ^1.0.0
+  # whatsapp_camera: ^1.0.0
   # photofilters: ^3.0.1
   share_plus:
     git:
